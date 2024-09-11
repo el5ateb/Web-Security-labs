@@ -1,2 +1,2 @@
 # Web-Security-labs
-Insecure Web Application
+week 1 : xss
