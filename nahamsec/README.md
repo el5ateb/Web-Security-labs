@@ -1,13 +1,13 @@
 # Nahamsec's Intro To Bug Bounty Labs
 
-#### Intro
-
 These are the labs that are used in Nahamsec's udemy course ["Intro To Bug Bounty"](https://www.udemy.com/course/intro-to-bug-bounty-by-nahamsec/)
 
-#### Requirements
-You must have docker installed, this can simply be installed using `apt install docker.io` for debian based operating systems or see https://docs.docker.com/get-docker/ for other distros and operating systems
+## Requirements
 
-##### Installation Instructions
+You must have docker installed, this can simply be installed using `apt install docker.io` for debian based operating systems or see <https://docs.docker.com/get-docker/> for other distros and operating systems
+
+### Installation Instructions
+
 `
 docker build -t nahamsec .
 `
@@ -17,10 +17,10 @@ docker build -t nahamsec .
 #### Add the following entries to your /etc/hosts file
 
 127.0.0.1          naham.sec  
-127.0.0.1          www.naham.sec    
+127.0.0.1          <www.naham.sec>
 127.0.0.1          xss.naham.sec  
 127.0.0.1          xss1.naham.sec  
-127.0.0.1          xss2.naham.sec    
+127.0.0.1          xss2.naham.sec
 127.0.0.1          xss3.naham.sec  
 127.0.0.1          xss4.naham.sec  
 127.0.0.1          or1.naham.sec  
@@ -45,7 +45,7 @@ docker build -t nahamsec .
 127.0.0.1          rce2.naham.sec  
 127.0.0.1          rce3.naham.sec
 
-Now you can visit http://www.naham.sec in your browser to view the list of challenges
+Now you can visit <http://www.naham.sec> in your browser to view the list of challenges
 
 ##### Credits
 
